@@ -33,14 +33,18 @@ Students.addStudent(studentList, Students(1,"Jonas", 100))
 Students.addStudent(studentList, Students(2,"Jose", 98))
 Students.addStudent(studentList, Students(3,"Amadeo", 99))
 
+print("Unsorted student list")
 Students.showStudents(studentList)
 
 Students.sort(studentList)
 
+print("Sorted student list")
 Students.showStudents(studentList)
 
+print("search student id 2")
 print(Students.searchStudent(studentList, 2))
 
+print("search student id 4")
 print(Students.searchStudent(studentList, 4))
 
 
